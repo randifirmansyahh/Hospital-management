@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C3902B8-138E-49C4-A6B8-1804BA707FED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>tugas_connect_database.My.MyApplication</StartupObject>
+    <RootNamespace>tugas_connect_database</RootNamespace>
+    <AssemblyName>tugas connect database</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>tugas connect database.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>tugas connect database.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\CRUD\Child\Search.vb" />
+    <Compile Include="Controller\CRUD\Child\Update.vb" />
+    <Compile Include="Controller\CRUD\Child\Delete.vb" />
+    <Compile Include="Controller\CRUD\Child\Check.vb" />
+    <Compile Include="Controller\CRUD\Child\Read.vb" />
+    <Compile Include="Controller\CRUD\Child\Create.vb" />
+    <Compile Include="Controller\CRUD\Parent\parentCrud.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\a.Designer.vb">
+      <DependentUpon>a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Class\Child\childloadingfirst.vb" />
+    <Compile Include="View\Class\Child\childlogin.vb" />
+    <Compile Include="View\Class\Child\childalat.vb" />
+    <Compile Include="View\Class\Child\childpengunjung.vb" />
+    <Compile Include="View\Class\Child\validasi.vb" />
+    <Compile Include="View\Class\Parent\classParent.vb" />
+    <Compile Include="Model\koneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Admin\adoperator\adeditop.Designer.vb">
+      <DependentUpon>adeditop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Admin\adoperator\adeditop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Admin\adoperator\adop.Designer.vb">
+      <DependentUpon>adop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Admin\adoperator\adop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Admin\Menu\menuad.Designer.vb">
+      <DependentUpon>menuad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Admin\Menu\menuad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Administrasi\opadministrasi.Designer.vb">
+      <DependentUpon>opadministrasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Administrasi\opadministrasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Administrasi\opbayar.Designer.vb">
+      <DependentUpon>opbayar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Administrasi\opbayar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Berita\optampilberita.Designer.vb">
+      <DependentUpon>optampilberita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Berita\optampilberita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\User Control\Uc Operator\Menu\ucopmenu.Designer.vb">
+      <DependentUpon>ucopmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\Uc Operator\Menu\ucopmenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\Uc Operator\Menu\ucopnavigasi.Designer.vb">
+      <DependentUpon>ucopnavigasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\Uc Operator\Menu\ucopnavigasi.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\User\ucmenuuser.Designer.vb">
+      <DependentUpon>ucmenuuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\User\ucmenuuser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\User\ucopberita.Designer.vb">
+      <DependentUpon>ucopberita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\User\ucopberita.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\User\ucopmap.Designer.vb">
+      <DependentUpon>ucopmap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\User\ucopmap.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\User\ucpasilitas.Designer.vb">
+      <DependentUpon>ucpasilitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\User\ucpasilitas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\User\ucuscariinap.Designer.vb">
+      <DependentUpon>ucuscariinap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\User\ucuscariinap.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\User\ucuskomentar.Designer.vb">
+      <DependentUpon>ucuskomentar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\User\ucuskomentar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\User\ucuspasien.Designer.vb">
+      <DependentUpon>ucuspasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\User\ucuspasien.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\User\usnavigasi.Designer.vb">
+      <DependentUpon>usnavigasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\User\usnavigasi.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\Awal\uclogin.Designer.vb">
+      <DependentUpon>uclogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\Awal\uclogin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\User Control\Awal\ucpengunjung.Designer.vb">
+      <DependentUpon>ucpengunjung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\Awal\ucpengunjung.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\Form\Umum\DetailTransaksi\editdetail.Designer.vb">
+      <DependentUpon>editdetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Umum\DetailTransaksi\editdetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Umum\DetailTransaksi\opdetail.Designer.vb">
+      <DependentUpon>opdetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Umum\DetailTransaksi\opdetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Dokter\opaddorupdatedoter.Designer.vb">
+      <DependentUpon>opaddorupdatedoter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Dokter\opaddorupdatedoter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Dokter\opdokter.Designer.vb">
+      <DependentUpon>opdokter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Dokter\opdokter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Pasien\Biasa\opaddoreditpasien.Designer.vb">
+      <DependentUpon>opaddoreditpasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Pasien\Biasa\opaddoreditpasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Berita\opinputoreditberita.Designer.vb">
+      <DependentUpon>opinputoreditberita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Berita\opinputoreditberita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Umum\Komentar\opkomentar.Designer.vb">
+      <DependentUpon>opkomentar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Umum\Komentar\opkomentar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Menu\opmenu.Designer.vb">
+      <DependentUpon>opmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Menu\opmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Pasien\Biasa\oppasien.Designer.vb">
+      <DependentUpon>oppasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Pasien\Biasa\oppasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Pasien\RawatInap\opaddoreditinap.Designer.vb">
+      <DependentUpon>opaddoreditinap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Pasien\RawatInap\opaddoreditinap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Pasien\RawatInap\oprawatinap.Designer.vb">
+      <DependentUpon>oprawatinap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Pasien\RawatInap\oprawatinap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\User Control\Awal\navigasiawal.Designer.vb">
+      <DependentUpon>navigasiawal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Control\Awal\navigasiawal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\Form\Umum\Pengujung\opshowpengunjung.Designer.vb">
+      <DependentUpon>opshowpengunjung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Umum\Pengujung\opshowpengunjung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Petugas\oppetugasaddoredit.Designer.vb">
+      <DependentUpon>oppetugasaddoredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Petugas\oppetugasaddoredit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Petugas\oppetugasshow.Designer.vb">
+      <DependentUpon>oppetugasshow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\Operator\Petugas\oppetugasshow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userberita.Designer.vb">
+      <DependentUpon>userberita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userberita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userdenahlokasi.Designer.vb">
+      <DependentUpon>userdenahlokasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userdenahlokasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userfasilitas.Designer.vb">
+      <DependentUpon>userfasilitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userfasilitas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userkomentar.Designer.vb">
+      <DependentUpon>userkomentar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userkomentar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userMencariInap.Designer.vb">
+      <DependentUpon>userMencariInap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userMencariInap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userMencariPasien.Designer.vb">
+      <DependentUpon>userMencariPasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\userMencariPasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Umum\Awal\login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Umum\Awal\login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Umum\Awal\loadingawal.Designer.vb">
+      <DependentUpon>loadingawal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Umum\Awal\loadingawal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Umum\Awal\pengunjung.Designer.vb">
+      <DependentUpon>pengunjung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Umum\Awal\pengunjung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\usermenu.Designer.vb">
+      <DependentUpon>usermenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form\Khusus\User\usermenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\a.resx">
+      <DependentUpon>a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Admin\adoperator\adeditop.resx">
+      <DependentUpon>adeditop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Admin\adoperator\adop.resx">
+      <DependentUpon>adop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Admin\Menu\menuad.resx">
+      <DependentUpon>menuad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Administrasi\opadministrasi.resx">
+      <DependentUpon>opadministrasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Administrasi\opbayar.resx">
+      <DependentUpon>opbayar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Berita\optampilberita.resx">
+      <DependentUpon>optampilberita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\Uc Operator\Menu\ucopmenu.resx">
+      <DependentUpon>ucopmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\Uc Operator\Menu\ucopnavigasi.resx">
+      <DependentUpon>ucopnavigasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\User\ucmenuuser.resx">
+      <DependentUpon>ucmenuuser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\User\ucopberita.resx">
+      <DependentUpon>ucopberita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\User\ucopmap.resx">
+      <DependentUpon>ucopmap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\User\ucpasilitas.resx">
+      <DependentUpon>ucpasilitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\User\ucuscariinap.resx">
+      <DependentUpon>ucuscariinap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\User\ucuskomentar.resx">
+      <DependentUpon>ucuskomentar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\User\ucuspasien.resx">
+      <DependentUpon>ucuspasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\User\usnavigasi.resx">
+      <DependentUpon>usnavigasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\Awal\uclogin.resx">
+      <DependentUpon>uclogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\Awal\ucpengunjung.resx">
+      <DependentUpon>ucpengunjung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Umum\DetailTransaksi\editdetail.resx">
+      <DependentUpon>editdetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Umum\DetailTransaksi\opdetail.resx">
+      <DependentUpon>opdetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Dokter\opaddorupdatedoter.resx">
+      <DependentUpon>opaddorupdatedoter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Dokter\opdokter.resx">
+      <DependentUpon>opdokter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Pasien\Biasa\opaddoreditpasien.resx">
+      <DependentUpon>opaddoreditpasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Berita\opinputoreditberita.resx">
+      <DependentUpon>opinputoreditberita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Umum\Komentar\opkomentar.resx">
+      <DependentUpon>opkomentar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Menu\opmenu.resx">
+      <DependentUpon>opmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Pasien\Biasa\oppasien.resx">
+      <DependentUpon>oppasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Pasien\RawatInap\opaddoreditinap.resx">
+      <DependentUpon>opaddoreditinap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Pasien\RawatInap\oprawatinap.resx">
+      <DependentUpon>oprawatinap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Control\Awal\navigasiawal.resx">
+      <DependentUpon>navigasiawal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Umum\Pengujung\opshowpengunjung.resx">
+      <DependentUpon>opshowpengunjung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Petugas\oppetugasaddoredit.resx">
+      <DependentUpon>oppetugasaddoredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\Operator\Petugas\oppetugasshow.resx">
+      <DependentUpon>oppetugasshow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\User\userberita.resx">
+      <DependentUpon>userberita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\User\userdenahlokasi.resx">
+      <DependentUpon>userdenahlokasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\User\userfasilitas.resx">
+      <DependentUpon>userfasilitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\User\userkomentar.resx">
+      <DependentUpon>userkomentar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\User\userMencariInap.resx">
+      <DependentUpon>userMencariInap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\User\userMencariPasien.resx">
+      <DependentUpon>userMencariPasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Umum\Awal\login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Umum\Awal\loadingawal.resx">
+      <DependentUpon>loadingawal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Umum\Awal\pengunjung.resx">
+      <DependentUpon>pengunjung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form\Khusus\User\usermenu.resx">
+      <DependentUpon>usermenu.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XX56.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor 021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hospital 031.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor 01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor 03%281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24x24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowleft0151220x20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspngcomputericonsdogrealestateclipartdogavatar5adfb038df9bb4794449151524609080915950x5020x201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maks25x25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize20x20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hospital 06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginfirts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotoloading.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon login1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24x241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logpengunjung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isipengunjung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundrsblur.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usersicon70x70 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hospital 061.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usersicon70x70 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowleft0151220x201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowright0151220x20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visual_studio_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundrsblur1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pegawai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aboutus2copy512100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-us100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apartment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-align-center.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullhorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hospital 062.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\denahasli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneyexchange51270x70 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payrollcopy51270x70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x0951270x70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-us100x1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\periscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-online-chat-conversation-livechat-s-my-work-5b519799756704.0582071715320738814809.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheelchair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whatsapp_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whatsapp_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\men_age_group_6_filled_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geo_fence_filled_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailbox_closed_flag_down_filled_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client_company_filled_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client_company_filled_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\97_bullhorn_megaphone_2_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secured_letter2_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crowd_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secured_letter2_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxMicrosoft.Vbe.Interop.Forms">
+      <Guid>{0D452EE1-E08F-101A-852E-02608C4D0BB4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Vbe.Interop.Forms">
+      <Guid>{0D452EE1-E08F-101A-852E-02608C4D0BB4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows8_filled_50px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

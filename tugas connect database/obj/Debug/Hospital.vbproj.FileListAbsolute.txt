@@ -1,0 +1,57 @@
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\tugas connect database.exe.config
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\tugas connect database.exe
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\tugas connect database.pdb
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\tugas connect database.xml
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.Resources.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\Hospital.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas connect database.exe
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas connect database.xml
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas connect database.pdb
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.loadingawal.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\Hospital.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.userMencariPasien.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.userMencariInap.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.userfasilitas.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.usermenu.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.userkomentar.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.userdenahlokasi.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.userberita.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opkomentar.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.oppasien.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.login.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.pengunjung.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.optampilberita.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opinputoreditberita.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opaddoreditpasien.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opaddorupdatedokter.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opdokter.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opaddoreditinap.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.oprawatinap.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opadministrasi.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opbayar.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\AxInterop.Microsoft.Vbe.Interop.Forms.dll
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\AxInterop.Microsoft.Vbe.Interop.Forms.dll
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\Hospital.vbproj.ResolveComReference.cache
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.oppetugasaddoredit.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.oppetugasshow.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opdetail.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.opshowpengunjung.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.menuad.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.adeditop.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.adop.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.editdetail.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.uclogin.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.a.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucpengunjung.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.navigasiawal.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucmenuuser.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.usnavigasi.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucopberita.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucopmap.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucpasilitas.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucuscariinap.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucuskomentar.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucuspasien.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucopmenu.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.ucopnavigasi.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.admenu.resources

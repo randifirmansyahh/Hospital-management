@@ -1,0 +1,36 @@
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\bin\Debug\tugas connect database.exe.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas_connect_database.Resources.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas_connect_database.tampilbarang.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas connect database.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\bin\Debug\tugas connect database.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\bin\Debug\tugas connect database.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\bin\Debug\tugas connect database.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas connect database.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas connect database.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas connect database.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas_connect_database.formcrud.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas_connect_database.login.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\tugas connect database\tugas connect database\obj\Debug\tugas connect database.vbprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\tugas connect database\tugas connect database\bin\Debug\tugas connect database.exe.config
+C:\Users\user\Downloads\tugas connect database\tugas connect database\obj\Debug\tugas connect database.exe
+C:\Users\user\Downloads\tugas connect database\tugas connect database\obj\Debug\tugas connect database.xml
+C:\Users\user\Downloads\tugas connect database\tugas connect database\obj\Debug\tugas connect database.pdb
+C:\Users\user\Downloads\tugas connect database\tugas connect database\obj\Debug\tugas connect database.vbprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\tugas connect database\tugas connect database\obj\Debug\tugas_connect_database.Login_Admin_Or_User.resources
+C:\Users\user\Downloads\tugas connect database\tugas connect database\obj\Debug\tugas connect database.vbproj.GenerateResource.Cache
+C:\Users\user\Downloads\tugas connect database\tugas connect database\bin\Debug\tugas connect database.exe
+C:\Users\user\Downloads\tugas connect database\tugas connect database\bin\Debug\tugas connect database.pdb
+C:\Users\user\Downloads\tugas connect database\tugas connect database\bin\Debug\tugas connect database.xml
+C:\Users\user\Downloads\tugas connect database\tugas connect database\obj\Debug\tugas_connect_database.Resources.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\tugas connect database.exe.config
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas connect database.exe
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas connect database.xml
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas connect database.pdb
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\tugas connect database.exe
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\tugas connect database.pdb
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\bin\Debug\tugas connect database.xml
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas connect database.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.Resources.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.Login_Admin_Or_User.resources
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas connect database.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\PROJECT VB\Hospital\tugas connect database\obj\Debug\tugas_connect_database.Loadfirst.resources

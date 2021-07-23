@@ -1,0 +1,260 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+tugasconnectdatabase
+</name>
+</assembly>
+<members>
+<member name="P:tugas_connect_database.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources._24x24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources._97_bullhorn_megaphone_2_64px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.about_us100x100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.about_us100x1001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Aboutus2copy512100x100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.apartment">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.arrowleft0151220x20">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.arrowright0151220x20">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.backgroundrsblur">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.backgroundrsblur1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.bubble">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.bullhorn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.client_company_filled_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.client_company_filled_50px1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.crowd_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.denahasli">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Doctor_01">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Doctor_02">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Doctor_03_1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.download">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.download__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.envelope">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.fotoloading">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.geo_fence_filled_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Hospital_03">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Hospital_06">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Hospital_061">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Hospital_062">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.icon_login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.isipengunjung">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.kisspng_computer_icons_online_chat_conversation_livechat_s_my_work_5b519799756704_0582071715320738814809">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.loginfirts">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.logpengunjung">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.mailbox_closed_flag_down_filled_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.map">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.men_age_group_6_filled_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.moneyexchange51270x70__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.news_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.news_50px1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.Payrollcopy51270x70">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.pegawai">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.periscope">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.search_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.secured_letter2_64px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.secured_letter2_64px1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.text_align_center">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.unnamed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.users">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.usersicon70x70__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.usersicon70x70__1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.visual_studio_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.welcome">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.whatsapp_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.whatsapp_32px1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.wheelchair">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.windows8_filled_50px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.x0951270x70">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:tugas_connect_database.My.Resources.Resources.XX56">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:tugas_connect_database.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
